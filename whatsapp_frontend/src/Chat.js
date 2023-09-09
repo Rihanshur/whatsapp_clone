@@ -48,12 +48,16 @@ function Chat() {
         </div> 
 
         <div className='chat__footer'>
+        <IconButton>
           <InsertEmoticonIcon />
+        </IconButton>
           <form>
             <input placeholder='Type a message' type='text' />
             <button type='submit'>Send a mesasge</button>
           </form>
+          <IconButton>
           <MicIcon />
+          </IconButton>
 
         </div>   
     </div>
