@@ -1,9 +1,11 @@
 import React from 'react'
 import "./Chat.css"
 import { Avatar, IconButton } from '@mui/material';
-import DonutLargeIcon from '@mui/icons-material/DonutLarge';
+import AttachFileIcon from '@mui/icons-material/AttachFile';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
+import InsertEmoticonIcon from '@mui/icons-material/InsertEmoticon';
 import SearchIcon from '@mui/icons-material/Search';
+import MicIcon from '@mui/icons-material/Mic';
 
 function Chat() {
   return (
@@ -20,7 +22,7 @@ function Chat() {
             </IconButton>
         
             <IconButton>
-                <DonutLargeIcon />  
+                <AttachFileIcon />  
             </IconButton>
 
             <IconButton>
@@ -46,12 +48,12 @@ function Chat() {
         </div> 
 
         <div className='chat__footer'>
-          <MoreVertIcon />
+          <InsertEmoticonIcon />
           <form>
             <input placeholder='Type a message' type='text' />
             <button type='submit'>Send a mesasge</button>
           </form>
-          <MoreVertIcon />
+          <MicIcon />
 
         </div>   
     </div>
